@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - AituTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a class="active" href="aboutus.html">About us</a></li>
+                <button onclick="toggleSound()">Best song ever</button>
+                <audio id="audio" src="kino.mp3" preload="auto"></audio>
+                <script>
+                    var audio = document.getElementById('audio');
+            
+                    function toggleSound() {
+                        if (audio.paused) {
+                            audio.play();
+                        } else {
+                            audio.pause();
+                            audio.currentTime = 0;
+                        }
+                    }
+                </script>
+            </ul>
+        </div>
+    </section>
+    <section id="about-us" class="section-p1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>About AituTech</h2>
+                    <p>In the vibrant city of Nur-Sultan, amidst the intellectual buzz of Aitu University, two
+                        driven young entrepreneurs, Yernur and Aidos, forged a partnership that would leave a
+                        lasting mark on the tech market. Fueled by their shared passion for technology and
+                        their alma mater, they laid the foundation for AituTech, a company dedicated to
+                        curating and selling the latest tech products.
+                        Yernur and Aidos, both alumni of Aitu University, recognized the need for a platform
+                        that could connect tech enthusiasts with cutting-edge products. Leveraging their
+                        intimate knowledge of the market and their deep understanding of consumer
+                        preferences, they meticulously handpicked a selection of top-tier tech gadgets and
+                        accessories, ranging from state-of-the-art smartphones to high-performance laptops
+                        and innovative smart home devices.</p>
+                </div>
+            </div>
+        </div>
+    
+    <div class="blog-box">
+        <div class="blog-img">
+            <img src="images/aido.jpg">
+        </div>
+        <div class="blog-details">
+        <h4>Aidos Tleukanov</h4>
+        <p>Aidos, an alum of Aitu University, is a visionary with a deep passion for technology. His innovative mindset and commitment to excellence have played a pivotal role in shaping AituTech's success.</p>
+        </div>
+    </div>
+
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="images/era.jpg">
+            </div>
+            <div class="blog-details">
+            <h4>Yernur Kaisaruly</h4>
+            <p>Yernur, also an Aitu University alum, brings extensive market knowledge and a keen eye for quality to AituTech. His dedication to customer satisfaction has been instrumental in establishing AituTech as a trusted name in the tech industry.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="vision" class="section-p1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Our Vision</h2>
+                    <p>The success of AituTech not only cemented Yernur and Aidos' position as influential
+                        figures in the tech retail sector but also served as an inspiration to aspiring
+                        entrepreneurs within the Aitu University community and beyond. Their journey
+                        exemplified the transformative power of collaboration, determination, and a shared
+                        passion for technology, proving that with a strong foundation and a clear vision, even
+                        the most ambitious dreams can become a reality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo.png">
+            <h4>Contact</h4>
+        <p><strong>Address: </strong> Mangilik El 667, Street 69, Astana</p>
+        <p><strong>Phone: </strong> +01 2222 365 /(+91) 01 2345 6789</p>
+        <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+    
+        <div class="col">
+            <h4>Our account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My wishlist</a>
+            <a href="#">Track My Orders</a>
+            <a href="#">Help</a>
+        </div>
+    
+        <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="images/favicon.ico" style="height: 40px;">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="images/logo.png" style="height: 40px;">
+        </div>
+    <div class="copyright">
+        <p>© 2023, AituTech etc - Aidos Tleukanov & Yernur Kaisaruly</p>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7ea7503fd9.js" crossorigin="anonymous"></script>
+</body>
+</html>

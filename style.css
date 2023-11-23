@@ -670,4 +670,95 @@ footer.copyright{
         color: #c9cbce;
         z-index: -9;
     }
+
+    #chat {
+        width: 50%;
+        min-width: 150px;
+        padding: 0px 150px 0 150px;
+        border: 1px solid #367CFF;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+        margin: auto; /* Add this line to center the section horizontally */
+        transition: 0.2s ease;
+        position: relative;
+    }
     
+    #faq-header{
+        background-image: url(https://assets-global.website-files.com/5e78f62c08f1bb8c2d788576/6386109f6528fe6ecbe7c97a_a8zkm6bdfzbtq4w4zf6bt52tj50u1q1b.png);
+        width: 100%;
+        height:50vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 14px;
+    }
+    
+
+    #about-us {
+        padding: 100px 20px 0 20px;}
+    #about-us .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;}
+    #about-us .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;}
+    #about-us .blog-details {
+        width:100%}
+    
+        #about-us{
+            padding: 150px 150px 0 150px;
+        }
+        #about-us .blog-box {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            position: relative;
+            padding-bottom: 90px;}
+        #about-us .blog-img {
+            width: 50%;
+            margin-right: 40px;}
+        #about-us img {
+            width: 100%;
+            height: 300px;
+            }
+        
+            #about-us .blog-details {
+                width: 50%;}
+            #about-us .blog-details a {
+                text-decoration: none;
+                font-size: 11px;
+                color: #000;
+                font-weight: 700;
+                position: relative;
+                transition:0.3s;}
+            #about-us .blog-details a::after{
+                content: "";
+                width: 50px;
+                height: 1px;
+                background-color:#000;
+                position: absolute;
+                top: 4px;
+                right: -60px;}
+            
+            #about-us .blog-details a:hover {
+                color:#088178;
+            }
+            
+            #about-us .blog-details a:hover::after {
+               background-color:#088178;
+            }
+            
+            #about-us .blog-box h1{
+                position: absolute;
+                top: -60px;
+                left: 0;
+                font-size: 70px;
+                font-weight: 700;
+                color: #c9cbce;
+                z-index: -9;
+            }
